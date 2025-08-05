@@ -18,7 +18,6 @@ HOW IT WORKS:
 3. **Track Distance** – The distance between the **thumb tip** and **index finger tip** is calculated.
 4. **Map to Volume** – This distance is linearly mapped to the system’s volume range using PyCaw.
 5. **Visual Feedback** – The system shows a volume bar and real-time percentage on the screen.
-
    
 FEATURES :
 -  Real-time hand detection and gesture tracking  
@@ -26,3 +25,20 @@ FEATURES :
 -  Touchless interaction enhances accessibility  
 -  Personalized tuning for different hand sizes and movement ranges  
 -  Smooth and responsive control via system API
+
+HOW TO RUN THE RPOJECT: 
+
+🔧Requirements:
+- Python 3.x  
+- OpenCV  
+- MediaPipe  
+- PyCaw  
+- NumPy
+
+Install Dependencies:
+```bash
+pip install opencv-python mediapipe pycaw numpy
+
+Run the Script
+```bash
+python HandTrackingModule.py
